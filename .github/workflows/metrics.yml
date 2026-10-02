@@ -1,0 +1,35 @@
+name: refresh profile metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Generate public metrics
+        run: go run ./scripts/update-metrics.go
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_USER: ${{ github.repository_owner }}
+      - name: Commit changed metrics
+        run: |
+          git diff --quiet -- assets/metrics.svg && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/metrics.svg
+          git commit -m "chore: refresh profile metrics"
+          git push

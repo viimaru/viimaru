@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="title desc">
+  <title id="title">Public GitHub activity for viimaru</title>
+  <desc id="desc">Public repository activity and language volume, generated from the GitHub API.</desc>
+  <style>
+    .bg{fill:#282828}.panel{fill:#1d2021}.edge{stroke:#504945}.soft{fill:#3c3836}.fg{fill:#ebdbb2}.muted{fill:#a89984}.faint{fill:#665c54}.green{fill:#b8bb26}.aqua{fill:#83a598}.yellow{fill:#fabd2f}.orange{fill:#fe8019}.red{fill:#fb4934}
+    text{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}
+    @media (prefers-color-scheme:light){.bg{fill:#fbf1c7}.panel{fill:#f2e5bc}.edge{stroke:#bdae93}.soft{fill:#ebdbb2}.fg{fill:#3c3836}.muted{fill:#665c54}.faint{fill:#a89984}.green{fill:#79740e}.aqua{fill:#076678}.yellow{fill:#b57614}.orange{fill:#af3a03}.red{fill:#9d0006}}
+  </style>
+  <rect x="8" y="8" width="744" height="234" rx="10" class="bg edge" stroke-width="3"/>
+  <rect x="22" y="22" width="716" height="32" rx="5" class="panel"/>
+  <circle cx="38" cy="38" r="4" class="red"/><circle cx="52" cy="38" r="4" class="yellow"/><circle cx="66" cy="38" r="4" class="green"/>
+  <text x="84" y="43" class="fg" font-size="13">git pulse --public @viimaru</text>
+  <text x="719" y="43" text-anchor="end" class="faint" font-size="10">2026-10-02</text>
+
+  <!-- deliberately crooked little commit graph -->
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M55 82v105c0 18 20 16 20 30" class="edge"/>
+    <path d="M55 105c0 17 35 9 35 30v31" stroke="#d79921"/>
+    <path d="M55 151c0 14-20 10-20 28v17" stroke="#458588"/>
+  </g>
+  <g class="bg" stroke-width="3">
+    <circle cx="55" cy="82" r="7" stroke="#98971a"/><circle cx="55" cy="105" r="7" stroke="#98971a"/><circle cx="90" cy="135" r="7" stroke="#d79921"/><circle cx="90" cy="166" r="7" stroke="#d79921"/><circle cx="55" cy="151" r="7" stroke="#98971a"/><circle cx="35" cy="196" r="7" stroke="#458588"/><circle cx="75" cy="217" r="7" stroke="#98971a"/>
+  </g>
+  <text x="113" y="91" class="muted" font-size="11">refs/public</text>
+  <text x="113" y="112" class="fg" font-size="18">4</text>
+  <text x="113" y="145" class="muted" font-size="11">active@12mo</text>
+  <text x="113" y="166" class="fg" font-size="18">4</text>
+  <text x="113" y="199" class="muted" font-size="11">first seen</text>
+  <text x="113" y="220" class="fg" font-size="18">2026</text>
+
+  <path d="M218 72v151" class="edge" stroke-width="2"/>
+  <text x="242" y="88" class="aqua" font-size="12">language volume</text>
+  <text x="718" y="88" text-anchor="end" class="faint" font-size="10">bytes · source, non-archived repos</text>
+  <rect x="242" y="108" width="476" height="68" rx="5" class="panel edge" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="262" y="136" class="yellow" font-size="13">∅  no language bytes indexed</text>
+  <text x="262" y="158" class="muted" font-size="11">empty tree; still a valid tree.</text>
+  <text x="242" y="226" class="faint" font-size="10">last push 2026-10-02 · bars measure repository bytes, not skill</text>
+</svg>

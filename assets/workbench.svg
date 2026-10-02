@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="190" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Viikzen's workbench</title>
+  <desc id="desc">A small Gruvbox-colored shelf with a server, overlapping editor and terminal windows, loose cables, and a coffee mug.</desc>
+
+  <rect x="8" y="8" width="744" height="174" rx="10" fill="#282828" stroke="#504945" stroke-width="3"/>
+
+  <!-- a tiny server that has definitely been rebooted before -->
+  <g transform="translate(30 31)">
+    <rect width="111" height="112" rx="4" fill="#3c3836" stroke="#665c54" stroke-width="3"/>
+    <rect x="12" y="14" width="87" height="22" rx="3" fill="#282828"/>
+    <rect x="12" y="45" width="87" height="22" rx="3" fill="#282828"/>
+    <rect x="12" y="76" width="87" height="22" rx="3" fill="#282828"/>
+    <g fill="#b8bb26">
+      <circle cx="24" cy="25" r="4"/><circle cx="24" cy="56" r="4"/><circle cx="24" cy="87" r="4"/>
+    </g>
+    <g fill="#83a598">
+      <rect x="38" y="22" width="47" height="6" rx="2"/><rect x="38" y="53" width="38" height="6" rx="2"/><rect x="38" y="84" width="54" height="6" rx="2"/>
+    </g>
+    <path d="M55 112v14c0 10 17 5 17 18" fill="none" stroke="#d79921" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- editor -->
+  <g transform="translate(174 22)">
+    <rect width="326" height="126" rx="6" fill="#1d2021" stroke="#665c54" stroke-width="3"/>
+    <path d="M0 27h326" stroke="#504945" stroke-width="2"/>
+    <circle cx="16" cy="14" r="4" fill="#cc241d"/>
+    <circle cx="30" cy="14" r="4" fill="#d79921"/>
+    <circle cx="44" cy="14" r="4" fill="#98971a"/>
+    <text x="162" y="18" text-anchor="middle" fill="#a89984" font-family="monospace" font-size="11">weirdly-specific-fix.go</text>
+    <rect x="12" y="37" width="34" height="77" rx="2" fill="#282828"/>
+    <g font-family="monospace" font-size="12">
+      <text x="22" y="53" fill="#928374">1</text><text x="57" y="53" fill="#fb4934">func</text><text x="91" y="53" fill="#fabd2f"> main</text><text x="126" y="53" fill="#ebdbb2">() {</text>
+      <text x="22" y="73" fill="#928374">2</text><text x="72" y="73" fill="#928374">// it was DNS</text>
+      <text x="22" y="93" fill="#928374">3</text><text x="72" y="93" fill="#83a598">fix</text><text x="94" y="93" fill="#ebdbb2">()</text>
+      <text x="22" y="113" fill="#928374">4</text><text x="57" y="113" fill="#ebdbb2">}</text>
+    </g>
+    <rect x="0" y="116" width="326" height="10" rx="0 0 5 5" fill="#98971a"/>
+    <text x="8" y="124" fill="#1d2021" font-family="monospace" font-size="9" font-weight="bold">NORMAL</text>
+  </g>
+
+  <!-- terminal, slightly in the way -->
+  <g transform="translate(443 73) rotate(-2)">
+    <rect width="206" height="83" rx="5" fill="#282828" stroke="#d65d0e" stroke-width="3"/>
+    <rect width="206" height="20" rx="4 4 0 0" fill="#3c3836"/>
+    <text x="10" y="14" fill="#d5c4a1" font-family="monospace" font-size="10">~/somewhere</text>
+    <g font-family="monospace" font-size="11">
+      <text x="11" y="39" fill="#b8bb26">❯</text><text x="27" y="39" fill="#ebdbb2">nixos-rebuild switch</text>
+      <text x="11" y="58" fill="#83a598">done.</text>
+      <text x="11" y="75" fill="#b8bb26">❯</text><rect x="27" y="65" width="7" height="12" fill="#ebdbb2"/>
+    </g>
+  </g>
+
+  <!-- coffee and one unnecessary loose screw -->
+  <g transform="translate(675 42)">
+    <path d="M0 21h45v52a10 10 0 0 1-10 10H10A10 10 0 0 1 0 73z" fill="#458588" stroke="#83a598" stroke-width="3"/>
+    <path d="M45 32h8c18 0 18 30 0 30h-8" fill="none" stroke="#83a598" stroke-width="5"/>
+    <path d="M11 12c-8-9 8-12 0-22M25 12c-8-9 8-12 0-22" fill="none" stroke="#a89984" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(695 151) rotate(20)">
+    <circle r="8" fill="#665c54" stroke="#a89984" stroke-width="2"/>
+    <path d="M-5 0h10M0-5v10" stroke="#282828" stroke-width="2"/>
+  </g>
+
+  <path d="M23 164h714" stroke="#504945" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,16 +1,20 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/workbench.svg" width="680" alt="A small Gruvbox-colored workbench with a server, editor, terminal, and coffee" />
+</p>
 
-<!--
-**viikzen/viikzen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```text
+       \  |  /          viimaru
+     `. \ | / .´        ------------------
+   ---  \ * /  ---      os       nixos / linux
+     .´ / | \ `.        editor   neovim
+       /  |  \          code     go · rust · php · c
+          |             habitat  terminal / servers
+```
 
-Here are some ideas to get you started:
+I make things I want to use. The rest is probably configuration.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[`~/repos`](https://github.com/viimaru?tab=repositories) · [`./workbench.svg`](./assets/workbench.svg)
+
+<img src="./assets/metrics.svg" width="680" alt="Public GitHub repository activity and language volume" />
+
+<!-- if it works, resist the urge to reconfigure it -->
