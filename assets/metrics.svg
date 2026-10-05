@@ -10,7 +10,7 @@
   <rect x="22" y="22" width="716" height="32" rx="5" class="panel"/>
   <circle cx="38" cy="38" r="4" class="red"/><circle cx="52" cy="38" r="4" class="yellow"/><circle cx="66" cy="38" r="4" class="green"/>
   <text x="84" y="43" class="fg" font-size="13">git pulse --public @viimaru</text>
-  <text x="719" y="43" text-anchor="end" class="faint" font-size="10">2026-10-02</text>
+  <text x="719" y="43" text-anchor="end" class="faint" font-size="10">2026-10-05</text>
 
   <!-- deliberately crooked little commit graph -->
   <g fill="none" stroke-width="3" stroke-linecap="round">
@@ -22,18 +22,30 @@
     <circle cx="55" cy="82" r="7" stroke="#98971a"/><circle cx="55" cy="105" r="7" stroke="#98971a"/><circle cx="90" cy="135" r="7" stroke="#d79921"/><circle cx="90" cy="166" r="7" stroke="#d79921"/><circle cx="55" cy="151" r="7" stroke="#98971a"/><circle cx="35" cy="196" r="7" stroke="#458588"/><circle cx="75" cy="217" r="7" stroke="#98971a"/>
   </g>
   <text x="113" y="91" class="muted" font-size="11">refs/public</text>
-  <text x="113" y="112" class="fg" font-size="18">4</text>
+  <text x="113" y="112" class="fg" font-size="18">5</text>
   <text x="113" y="145" class="muted" font-size="11">active@12mo</text>
-  <text x="113" y="166" class="fg" font-size="18">4</text>
+  <text x="113" y="166" class="fg" font-size="18">5</text>
   <text x="113" y="199" class="muted" font-size="11">first seen</text>
   <text x="113" y="220" class="fg" font-size="18">2026</text>
 
   <path d="M218 72v151" class="edge" stroke-width="2"/>
   <text x="242" y="88" class="aqua" font-size="12">language volume</text>
   <text x="718" y="88" text-anchor="end" class="faint" font-size="10">bytes · source, non-archived repos</text>
-  <text x="242" y="118" class="fg" font-size="11">Go          </text>
+  <text x="242" y="118" class="fg" font-size="11">CSS         </text>
   <rect x="340" y="109" width="310" height="9" rx="2" class="soft"/>
-  <rect x="340" y="109" width="310.0" height="9" rx="2" class="green"/>
-  <text x="718" y="118" text-anchor="end" class="muted" font-size="11">100.0%</text>
-  <text x="242" y="226" class="faint" font-size="10">last push 2026-10-02 · bars measure repository bytes, not skill</text>
+  <rect x="340" y="109" width="122.3" height="9" rx="2" class="green"/>
+  <text x="718" y="118" text-anchor="end" class="muted" font-size="11">39.4%</text>
+  <text x="242" y="142" class="fg" font-size="11">Go          </text>
+  <rect x="340" y="133" width="310" height="9" rx="2" class="soft"/>
+  <rect x="340" y="133" width="91.9" height="9" rx="2" class="aqua"/>
+  <text x="718" y="142" text-anchor="end" class="muted" font-size="11">29.6%</text>
+  <text x="242" y="166" class="fg" font-size="11">Hack        </text>
+  <rect x="340" y="157" width="310" height="9" rx="2" class="soft"/>
+  <rect x="340" y="157" width="48.3" height="9" rx="2" class="yellow"/>
+  <text x="718" y="166" text-anchor="end" class="muted" font-size="11">15.6%</text>
+  <text x="242" y="190" class="fg" font-size="11">PHP         </text>
+  <rect x="340" y="181" width="310" height="9" rx="2" class="soft"/>
+  <rect x="340" y="181" width="47.6" height="9" rx="2" class="orange"/>
+  <text x="718" y="190" text-anchor="end" class="muted" font-size="11">15.3%</text>
+  <text x="242" y="226" class="faint" font-size="10">last push 2026-10-05 · bars measure repository bytes, not skill</text>
 </svg>
